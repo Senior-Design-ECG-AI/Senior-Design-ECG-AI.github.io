@@ -1,0 +1,67 @@
+.headerImage {
+    position: relative;
+    display: block;
+    width: 50%;
+    opacity: 0.125;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.primaryBlue {
+    color: #00224A;
+}
+
+.secondaryRed {
+    color: #EA0029;
+}
+
+.navbar-custom {
+    background-color: #00224A;
+}
+
+.centeredText {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 80%;
+}
+
+.home-image {
+    background-image: url('./images/wwpf_fit_icon.png');
+}
+
+.home-image-text {
+    color: #00224A;
+}
+
+@media (min-width: 0px) {
+    html {
+        font-size: 65%;
+    }
+}
+
+@media (min-width: 576px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 125%;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 150%;
+    }
+}
