@@ -5,10 +5,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
 
-    <title>Basic - SaaS Landing Page</title>
+    <title>ECG Automated Interpretation</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Custome CSS -->
+    <link rel="stylesheet" href="styles.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
@@ -16,46 +18,58 @@
 <!--ECG Automated Interpretation-->
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">CSE4101 Senior Project</a>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-custom navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#home">CSE4101 Senior Project</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+              <span class="navbar-toggler-icon"></span>
+            </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">First Semester</a>
+                    <a class="nav-link" href="#firstSemester">First Semester</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Second Semester</a>
+                    <a class="nav-link" href="#secondSemester">Second Semester</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div style="text-align: center;">
-        <h1>ECG Automated Interpretation</h1>
+    <!-- Header -->
+    <header class="home-image">
+        <div class="container" style="padding-top: 5rem;">
+            <!-- <img class="headerImage" src="images/wwpf_fit_icon.png" alt="Architecture"> -->
+            <div class="row justify-content-center">
+                <div class="col-10 text-center justify-content-center">
+                    <h1 class="text-center home-image-text">ECG Automated Interpretation</h1><br>
+                </div>
+            </div>
+        </div>
+    </header>
 
+    <!-- Page content -->
+    <div style="text-align: center;">
         <div style="text-align: center;" title="Team Members" class="container">
             <h5>Team Members</h5>
-            <div style="text-align: left;">
+            <div style="text-align: center;">
                 <p>Azim Shafi - ashafi2018@my.fit.edu</p>
                 <p>Julian Robledo - jrobledo2017@my.fit.edu</p>
                 <p>Seng Jhing Goh - sgoh2018@my.fit.edu</p>
                 <p>Nicangel Sanchez - nsanchez2017@my.fit.edu</p>
             </div>
         </div>
-    </div>
 
-    <div style="text-align: center;" title="Team Members" class="container">
-        <h5>Faculty Sponsor</h5>
-        <p>TBD</p>
+        <div style="text-align: center;" title="Faculty" class="container">
+            <h5>Faculty Sponsor</h5>
+            <p>Dr. Philip Chan - pkc@cs.fit.edu</p>
+        </div>
     </div>
 
     <!-- Optional JavaScript -->
