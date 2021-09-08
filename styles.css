@@ -1,7 +1,17 @@
 .site {
-    background: rgb(0, 34, 74);
-    background: linear-gradient(90deg, rgba(0, 34, 74, 0.80) 25%, rgba(234, 0, 41, 0.80) 100%);
-    font-family: sans-serif;
+    background: linear-gradient(to bottom, #EA0029, #9c1c34, #004696);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.site::before {
+    content:'';
+	position: fixed;
+	top: 0; 
+	bottom: 0;
+	width: 100%;
+	z-index: -1;
+	background: linear-gradient(to right bottom, rgba(255,255,255,0.2), #00224A 120%);
 }
 
 .headerImage {
@@ -15,6 +25,10 @@
 
 .navbar-custom {
     background-color: #00224A;
+}
+
+.red-text:hover {
+    color: #EA0029 !important;
 }
 
 .centeredText {
@@ -42,10 +56,15 @@
 }
 
 .team-container {
+    text-align: center;
     padding: 10px 25px 10px 25px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.15);
+}
+
+.team-container:hover {
+    box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.5);
 }
 
 .faculty-client-container {
@@ -55,9 +74,15 @@
     box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.15);
 }
 
+.faculty-client-container:hover {
+    box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.5);
+}
+
 .ruler {
     width: 80%;
-    border: 1px solid #d4af37;
+    border: 1.5px solid rgb(228, 183, 125);
+    border-radius: 5px;
+    box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.15);
 }
 
 .semester-text {
@@ -73,12 +98,22 @@
     box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.15);
 }
 
+.plan-container:hover {
+    box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.5);
+}
+
+
 .mile1-container {
     padding: 10px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.15);
 }
+
+.mile1-container:hover {
+    box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.5);
+}
+
 
 .mile2-container {
     padding: 10px;
@@ -87,12 +122,22 @@
     box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.15);
 }
 
+.mile2-container:hover {
+    box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.5);
+}
+
+
 .mile3-container {
     padding: 10px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.15);
 }
+
+.mile3-container:hover {
+    box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.5);
+}
+
 
 ul {
     list-style-type: none;
@@ -113,34 +158,3 @@ li {
 .linked-text {
     font-size: 18px;
 }
-
-
-/* @media (min-width: 0px) {
-    html {
-        font-size: 65%;
-    }
-}
-
-@media (min-width: 576px) {
-    html {
-        font-size: 80%;
-    }
-}
-
-@media (min-width: 768px) {
-    html {
-        font-size: 100%;
-    }
-}
-
-@media (min-width: 992px) {
-    html {
-        font-size: 125%;
-    }
-}
-
-@media (min-width: 1200px) {
-    html {
-        font-size: 150%;
-    }
-} */
