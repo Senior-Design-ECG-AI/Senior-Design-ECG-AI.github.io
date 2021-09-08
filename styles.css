@@ -1,6 +1,7 @@
 .site {
     background: rgb(0, 34, 74);
     background: linear-gradient(90deg, rgba(0, 34, 74, 0.80) 25%, rgba(234, 0, 41, 0.80) 100%);
+    font-family: sans-serif;
 }
 
 .headerImage {
@@ -44,14 +45,14 @@
     padding: 10px 25px 10px 25px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 .7em .7em rgba(195, 224, 229, 0.15);
+    box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.15);
 }
 
 .faculty-client-container {
     padding: 10px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 .7em .7em rgba(195, 224, 229, 0.15);
+    box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.15);
 }
 
 .ruler {
@@ -69,28 +70,28 @@
     padding: 10px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 .7em .7em rgba(195, 224, 229, 0.15);
+    box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.15);
 }
 
 .mile1-container {
     padding: 10px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 .7em .7em rgba(195, 224, 229, 0.15);
+    box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.15);
 }
 
 .mile2-container {
     padding: 10px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 .7em .7em rgba(195, 224, 229, 0.15);
+    box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.15);
 }
 
 .mile3-container {
     padding: 10px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 .7em .7em rgba(195, 224, 229, 0.15);
+    box-shadow: 0 0 .7em .7em rgba(54, 54, 54, 0.15);
 }
 
 ul {
@@ -101,6 +102,16 @@ ul {
 
 li {
     padding: 5px 0 0 0;
+}
+
+.container-text {
+    font-size: 23px;
+    font-weight: bold;
+    color: #00224A;
+}
+
+.linked-text {
+    font-size: 18px;
 }
 
 

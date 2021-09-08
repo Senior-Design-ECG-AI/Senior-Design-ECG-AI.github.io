@@ -9,11 +9,17 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+    <script src="https://kit.fontawesome.com/532f56a839.js" crossorigin="anonymous"></script>
+
     <!-- Custome CSS -->
     <link rel="stylesheet" href="styles.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body class="site">
@@ -39,7 +45,7 @@
     </nav>
 
     <!-- Header -->
-    <header class="justify-content-center home-header">
+    <header class="justify-content-center home-header" id="home">
         <div style="padding-top: 150px;">
             <h1 class="text-center home-header-text">ECG Automated Interpretation</h1>
         </div>
@@ -48,15 +54,15 @@
     <!-- Page content -->
     <div class="container-fluid" style="text-align: center; margin-top: 30px;">
         <!-- Team Members names and email -->
-        <div class="row justify-content-center" id="home">
+        <div class="row justify-content-center">
             <div class="team-container" style="text-align: center;">
                 <div style="padding: 5px;">
-                    <h4>Team Members</h4>
+                    <h4 class="container-text">Team Members</h4>
                     <div style="text-align: center; padding-top: 20px;">
-                        <p><i class="fa fa-github" aria-hidden="true"></i> Azim Shafi - ashafi2018@my.fit.edu</p>
-                        <p><i class="fa fa-github" aria-hidden="true"></i> Julian Robledo - jrobledo2017@my.fit.edu</p>
-                        <p><i class="fa fa-github" aria-hidden="true"></i> Seng Jhing Goh - sgoh2018@my.fit.edu</p>
-                        <p><i class="fa fa-github" aria-hidden="true"></i> Nicangel Sanchez - nsanchez2017@my.fit.edu</p>
+                        <p><i class="fab fa-github"></i></i> Azim Shafi - ashafi2018@my.fit.edu</p>
+                        <p><i class="fab fa-github"></i> Julian Robledo - jrobledo2017@my.fit.edu</p>
+                        <p><i class="fab fa-github"></i></i> Seng Jhing Goh - sgoh2018@my.fit.edu</p>
+                        <p><i class="fab fa-github"></i></i> Nicangel Sanchez - nsanchez2017@my.fit.edu</p>
                     </div>
                 </div>
             </div>
@@ -64,36 +70,36 @@
         <!-- Faculty name and email -->
         <div class="row justify-content-center" style="margin-top: 45px;">
             <div class="col-md-3 faculty-client-container" style="text-align: center; margin: 15px;">
-                <h4>Faculty Sponsor</h4>
+                <h4 class="container-text">Faculty Sponsor</h4>
                 <p>Dr. Philip Chan - pkc@cs.fit.edu</p>
             </div>
             <div class="col-md-3 faculty-client-container" style="text-align: center; margin: 15px;">
-                <h4>Client</h4>
+                <h4 class="container-text">Client</h4>
                 <p>Who We Play For - <a class="web-link" href="https://www.whoweplayfor.org/" target="_blank">www.whoweplayfor.org</a></p>
             </div>
         </div>
         <!-- 1st Semester -->
-        <div id="firstSemester" class="container-fluid justify-content-center" style="margin-top: 35px;">
-            <hr class="ruler">
+        <div class="container-fluid justify-content-center" style="margin-top: 35px;">
+            <hr class="ruler" id="firstSemester">
             <div class="row justify-content-center" style="text-align: center; margin-top: 35px;">
                 <div class="col-12">
                     <h4 class="semester-text">First Semester</h4>
                 </div>
                 <div class="col-md-3 plan-container" style="text-align: center; margin: 15px;">
-                    <h4>Plan (Sep 8)</h4>
+                    <h4 class="container-text">Plan (Sep 8)</h4>
                     <ul>
                         <li>
-                            <a class="linked-text" href="https://docs.google.com/document/d/1iclcNbK3xqew4zo3Mvys5sWQs6jkA4X92sCC66ljRv0/edit?usp=sharing" target="_blank"><i class="fa fa-file-text-o" aria-hidden="true"></i>  Project Plan</a>
+                            <a class="linked-text" href="https://docs.google.com/document/d/1iclcNbK3xqew4zo3Mvys5sWQs6jkA4X92sCC66ljRv0/edit?usp=sharing" target="_blank"><i class="far fa-file-alt"></i>  Project Plan</a>
                         </li>
                         <li>
-                            <a class="linked-text" href="https://docs.google.com/presentation/d/1q5G_O6Oq_BKD2LK145m-s1D1AXAWwcpc/edit?usp=sharing&ouid=101874806668124291352&rtpof=true&sd=true" target="_blank"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>  Presentation</a>
+                            <a class="linked-text" href="https://docs.google.com/presentation/d/1q5G_O6Oq_BKD2LK145m-s1D1AXAWwcpc/edit?usp=sharing&ouid=101874806668124291352&rtpof=true&sd=true" target="_blank"><i class="far fa-file-powerpoint"></i>  Presentation</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-3 mile1-container" style="text-align: center; margin: 15px;">
-                    <h4>Milestone 1 (Oct 4)</h4>
+                    <h4 class="container-text">Milestone 1 (Oct 4)</h4>
                     <ul>
                         <li>
                             <a class="linked-text" href="" target="_blank"><i class="fa fa-file-text-o" aria-hidden="true"></i>  Requirement Document</a>
@@ -113,7 +119,7 @@
                     </ul>
                 </div>
                 <div class="col-md-3 mile2-container" style="text-align: center; margin: 15px;">
-                    <h4>Milestone 2 (Nov 1)</h4>
+                    <h4 class="container-text">Milestone 2 (Nov 1)</h4>
                     <ul>
                         <li>
                             <a class="linked-text" href="" target="_blank"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>  Presentation</a>
@@ -124,7 +130,7 @@
                     </ul>
                 </div>
                 <div class="col-md-3 mile3-container" style="text-align: center; margin: 15px;">
-                    <h4>Milestone 3 (Nov 29)</h4>
+                    <h4 class="container-text">Milestone 3 (Nov 29)</h4>
                     <ul>
                         <li>
                             <a class="linked-text" href="" target="_blank"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>  Presentation</a>
@@ -145,7 +151,7 @@
                 <h4 class="semester-text">Second Semester</h4>
             </div>
             <div class="col-md-3 plan-container" style="text-align: center; margin: 15px;">
-                <h4>Plan (Jan ?)</h4>
+                <h4 class="container-text">Plan (Jan ?)</h4>
                 <ul>
                     <li>
                         <a class="linked-text" href="" target="_blank"><i class="fa fa-file-text-o" aria-hidden="true"></i>  Project Plan</a>
@@ -158,7 +164,7 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-md-3 mile1-container" style="text-align: center; margin: 15px;">
-                <h4>Milestone 1 (Feb ?)</h4>
+                <h4 class="container-text">Milestone 1 (Feb ?)</h4>
                 <ul>
                     <li>
                         <a class="linked-text" href="" target="_blank"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>  Presentation</a>
@@ -169,7 +175,7 @@
                 </ul>
             </div>
             <div class="col-md-3 mile2-container" style="text-align: center; margin: 15px;">
-                <h4>Milestone 2 (Mar ?)</h4>
+                <h4 class="container-text">Milestone 2 (Mar ?)</h4>
                 <ul>
                     <li>
                         <a class="linked-text" href="" target="_blank"><i class="fa fa-newspaper-o" aria-hidden="true"></i>  Poster</a>
@@ -186,7 +192,7 @@
                 </ul>
             </div>
             <div class="col-md-3 mile3-container" style="text-align: center; margin: 15px;">
-                <h4>Milestone 3 (Apr ?)</h4>
+                <h4 class="container-text">Milestone 3 (Apr ?)</h4>
                 <ul>
                     <li>
                         <a class="linked-text" href="" target="_blank"><i class="fa fa-file-text-o" aria-hidden="true"></i>  	User and/or Developer Manual</a>
@@ -204,12 +210,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
 </body>
 
 </html>
