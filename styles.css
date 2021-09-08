@@ -2,6 +2,7 @@
     background: linear-gradient(to bottom, #EA0029, #9c1c34, #004696);
 	background-size: 100%;
 	background-repeat: no-repeat;
+    font: 1.2em "Fira Sans", sans-serif;
 }
 
 .site::before {
